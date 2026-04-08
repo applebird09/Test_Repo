@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int dan = 5; 
+    int i;
+
+    for (i = 1; i < 10; i++) {   // 1. 출력결과 구구단이 5*(0~8) 까지라서 5*(1~9)까지 되도록 i=1; i<10으로 바꿨어요 
+        printf("%d * %d = %d\n", dan, i, dan * i);     // 2. printf뒤 ";"추가했어요
+    }
+    return 0;
+}
